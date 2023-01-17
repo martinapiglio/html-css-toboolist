@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: white;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -54,3 +54,34 @@ nav #section-button {
     /* aggiustare bordo button  */
     padding: 6px;
 }
+
+main section {
+    color: #353a44;
+    padding-bottom: 20px;
+}
+
+.dropdown-arrow {
+    padding-right: 5px;
+}
+
+h3 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+section ul {
+    padding-left: 20px;
+    font-size: 13px;
+    line-height: 30px;
+    list-style: none;
+}
+  
+ul li:before {
+    padding-right: 10px;
+    content: '\2611';
+    color: #59bba1;
+    font-size: 130%;
+  }
+
+/* aggiungere ballot bullet su elementi lista */
+
