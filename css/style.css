@@ -83,7 +83,10 @@ ul li:before {
     font-size: 130%;
   }
 
-/* aggiungere ballot bullet su elementi lista */
+ ul li.ballot-bullet:before {
+    content: '\2612';
+    color: #eb6059;
+  }
 
 .baloon {
     background-color: #45abea; 
